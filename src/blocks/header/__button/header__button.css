@@ -1,7 +1,8 @@
 .header__button {
 	display: flex;
-  	align-items: center;
 	justify-content: center;
-  	margin-left: 42px;
-	/*background-image: url("./images/profile.svg");*/
+	align-items: center;
+	margin-left: 42px;
+
+	/* background-image: url("./images/profile.svg"); */
 }
