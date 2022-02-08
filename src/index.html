@@ -1,24 +1,292 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web+__LizaAlert</title>
+		<link rel="stylesheet" href="./pages/index.css" />
+	</head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Web+__LizaAlert</title>
-	<link rel="stylesheet" href="./pages/index.css">
-</head>
-
-<body class="page">
-	<header class="header">
-	</header>
-	<div class="wrapper">
-		<aside class="sidebar">
-			<!-- форма с фильтрами -->
-		</aside>
-		<main class="content">
-			<!-- список курсов -->
-		</main>
-	</div>
-</body>
-
+	<body class="page">
+		<header class="header"></header>
+		<div class="wrapper">
+			<aside class="sidebar">
+				<!-- форма с фильтрами -->
+			</aside>
+			<main>
+				<section class="cards">
+					<ul class="cards__content">
+						<li class="card background">
+							<img
+								src="./images/cynologist.jpg"
+								alt="Кинолог"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">
+									Кинологическое направление
+								</p>
+								<p class="card__level">Бывалый</p>
+								<p class="card__info">
+									Поисково-спасательная работа, следовая
+									работа, а так же поиск тел погибших
+									с помощью собак
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_active-orange">Продолжить</button>
+							</div>
+						</li>
+						<li class="card background">
+							<img
+								src="./images/operatives.jpg"
+								alt="Оперативные дежурные"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">Оперативные дежурные</p>
+								<p class="card__level">Профессионал</p>
+								<p class="card__info">
+									Оперативное реагирование, контроль
+									поступающих заявок и звонков, распределение
+									задач, помощь в решении вопросов, удалённое
+									решение вопросов
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_active-white">Записаться</button>
+							</div>
+						</li>
+						<li class="card background">
+							<img
+								src="./images/drone.jpg"
+								alt="Беспилотники>"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">
+									Беспилотные летательные аппараты
+								</p>
+								<p class="card__level">Бывалый</p>
+								<p class="card__info">
+									Применение БПЛА в поиске людей,
+									а так же передача полученной с помощью
+									техники информации спасательным службам
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_active-white">Записаться</button>
+							</div>
+						</li>
+						<li class="card background">
+							<img
+								src="./images/ambulance.jpg"
+								alt="Первая помощь"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">Первая помощь</p>
+								<p class="card__level">Бывалый</p>
+								<p class="card__info">
+									Основы оказания первой помощи на поиске,
+									юридические аспекты, базовые алгоритмы,
+									разбор ошибок при оказания помощи на поиске
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_active-white">Записаться</button>
+							</div>
+						</li>
+						<li class="card background">
+							<img
+								src="./images/infogroup.jpg"
+								alt="Инфогруппа"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">Инфогруппа</p>
+								<p class="card__level">Новичок</p>
+								<p class="card__info">
+									Создание ориентировок, заказ карт, связь
+									через мини АТС, обеспечение поиска
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_not-active">Пройден</button>
+							</div>
+						</li>
+						<li class="card background">
+							<img
+								src="./images/operators.jpg"
+								alt="Операторы"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">Операторы 8-800</p>
+								<p class="card__level">Новичок</p>
+								<p class="card__info">
+									Приём заявок на поиск людей с последующей
+									передачей информации инфоргам
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_active-white">Записаться</button>
+							</div>
+						</li>
+						<li class="card background">
+							<img
+								src="./images/short_calls.jpg"
+								alt="Кинолог"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">
+									Группа коротких прозвонов
+								</p>
+								<p class="card__level">Новичок</p>
+								<p class="card__info">
+									Прозвон больниц, ОВД, различных ведомств,
+									иногда свидетелей и возможных свидетелей
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_active-white">Записаться</button>
+							</div>
+						</li>
+						<li class="card background">
+							<img
+								src="./images/newbie.jpg"
+								alt="Новичковая"
+								class="card__image"
+							/>
+							<div class="card__information">
+								<p class="card__name">Новичковая</p>
+								<p class="card__level">Новичок</p>
+								<p class="card__info">
+									Короткое описание курса. людей в лесу
+									и в городе. Все поисковые мероприятия
+									организуются силами добровольцев «ЛизаАлерт»
+								</p>
+							</div>
+							<div class="card__additional">
+								<p class="card__lessons">
+									<img
+										src=".//images/lessons_icon.svg"
+										alt="занятия"
+										class="card__icon"
+									/>144 занятия
+								</p>
+								<p class="card__lessons">
+									<img
+										src=".//images/time_icon.svg"
+										alt="время"
+										class="card__icon"
+									/>144 ч
+								</p>
+								<button class="button button_status_not-active">Пройден</button>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</main>
+		</div>
+	</body>
 </html>

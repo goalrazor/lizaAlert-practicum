@@ -1,0 +1,11 @@
+.card__level {
+  margin: 0;
+  padding: 0 8px;
+  margin-bottom: 24px;
+  max-width: min-content;
+  background-color: #E6E7EB;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}

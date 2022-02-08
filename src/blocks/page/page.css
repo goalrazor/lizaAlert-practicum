@@ -1,5 +1,6 @@
 .page {
 	display: flex;
+	max-width: 1440px;
 	flex-direction: column;
 	align-items: center;
 	margin: 0;
