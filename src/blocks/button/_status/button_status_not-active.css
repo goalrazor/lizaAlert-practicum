@@ -1,0 +1,8 @@
+.button_status_not-active {
+	color: #9397a3;
+	background-color: #e6e7eb;
+}
+
+.button:hover {
+	cursor: auto;
+}
