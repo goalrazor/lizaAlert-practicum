@@ -2,6 +2,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 648px;
-	background-color: blanchedalmond;
+	max-width: 648px;
+	padding: 32px;
 }
