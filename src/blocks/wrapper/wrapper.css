@@ -1,0 +1,10 @@
+.wrapper {
+	width: 1440px;
+  	height: 1900px;
+	padding: 0 60px 0;
+  	display: grid;
+  	grid-template-columns: 312px 1fr;
+  	gap: 24px;
+  	background-color: #FCFCFC;
+  	box-sizing: border-box;
+}
