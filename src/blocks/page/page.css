@@ -1,8 +1,8 @@
 .page {
 	display: flex;
-	max-width: 1440px;
 	flex-direction: column;
 	align-items: center;
+	max-width: 1440px;
 	margin: 0;
 	background-color: #e5e5e5;
 }

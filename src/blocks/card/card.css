@@ -1,7 +1,7 @@
 .card {
 	display: grid;
-	height: 240px;
-	width: 100%;
 	grid-template-columns: 200px 1fr 288px;
+	width: 100%;
+	height: 240px;
 	column-gap: 24px;
 }

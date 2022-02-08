@@ -1,7 +1,7 @@
 .cards__content {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: grid;
-  row-gap: 24px;
+	display: grid;
+	row-gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
