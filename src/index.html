@@ -8,13 +8,35 @@
 	</head>
 
 	<body class="page">
-		<header class="header"></header>
+		<header class="header">
+			<p class="header__title">Учебная платформа</p>
+			<ul class="header__navigation">
+				<li class="header__button">
+					<img
+						class="header__icon"
+						src="images/shapo4ka.svg"
+						alt="Шапочка"
+					/>
+					<p class="header__subtitle">Курсы</p>
+					<a href="#"></a>
+				</li>
+				<li class="header__button header__button_active">
+					<img
+						class="header__icon"
+						src="images/image.svg"
+						alt="Профиль"
+					/>
+					<p class="header__subtitle">Профиль</p>
+					<a href="#"></a>
+				</li>
+			</ul>
+		</header>
 		<div class="wrapper">
 			<aside class="sidebar">
 				<!-- форма с фильтрами -->
 			</aside>
 			<main>
-				<section class="cards">
+				<section class="cards" aria-label="cards">
 					<ul class="cards__content">
 						<li class="card background">
 							<img
@@ -23,9 +45,9 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">
+								<h3 class="card__name">
 									Кинологическое направление
-								</p>
+								</h3>
 								<p class="card__level">Бывалый</p>
 								<p class="card__info">
 									Поисково-спасательная работа, следовая
@@ -62,7 +84,7 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">Оперативные дежурные</p>
+								<h3 class="card__name">Оперативные дежурные</h3>
 								<p class="card__level">Профессионал</p>
 								<p class="card__info">
 									Оперативное реагирование, контроль
@@ -100,9 +122,9 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">
+								<h3 class="card__name">
 									Беспилотные летательные аппараты
-								</p>
+								</h3>
 								<p class="card__level">Бывалый</p>
 								<p class="card__info">
 									Применение БПЛА в поиске людей,
@@ -139,7 +161,7 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">Первая помощь</p>
+								<h3 class="card__name">Первая помощь</h3>
 								<p class="card__level">Бывалый</p>
 								<p class="card__info">
 									Основы оказания первой помощи на поиске,
@@ -176,7 +198,7 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">Инфогруппа</p>
+								<h3 class="card__name">Инфогруппа</h3>
 								<p class="card__level">Новичок</p>
 								<p class="card__info">
 									Создание ориентировок, заказ карт, связь
@@ -210,7 +232,7 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">Операторы 8-800</p>
+								<h3 class="card__name">Операторы 8-800</h3>
 								<p class="card__level">Новичок</p>
 								<p class="card__info">
 									Приём заявок на поиск людей с последующей
@@ -246,9 +268,9 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">
+								<h3 class="card__name">
 									Группа коротких прозвонов
-								</p>
+								</h3>
 								<p class="card__level">Новичок</p>
 								<p class="card__info">
 									Прозвон больниц, ОВД, различных ведомств,
@@ -284,7 +306,7 @@
 								class="card__image"
 							/>
 							<div class="card__information">
-								<p class="card__name">Новичковая</p>
+								<h3 class="card__name">Новичковая</h3>
 								<p class="card__level">Новичок</p>
 								<p class="card__info">
 									Короткое описание курса. людей в лесу
