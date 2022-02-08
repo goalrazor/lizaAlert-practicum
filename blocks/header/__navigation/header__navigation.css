@@ -1,9 +1,9 @@
 .header__navigation {
-  margin: 0;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  align-items: center;
-  justify-content: flex-end;
-  position: sticky;
+	margin: 0;
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	align-items: center;
+	justify-content: flex-end;
+	position: sticky;
 }
