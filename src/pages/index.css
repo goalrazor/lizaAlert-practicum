@@ -21,3 +21,14 @@
 @import url('../blocks/filter/__title/filter__title.css');
 @import url('../blocks/filter/__chevron/filter__chevron.css');
 @import url('../blocks/background/background.css');
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__content/cards__content.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__information/card__information.css');
+@import url('../blocks/card/__name/card__name.css');
+@import url('../blocks/card/__level/card__level.css');
+@import url('../blocks/card/__info/card__info.css');
+@import url('../blocks/card/__additional/card__additional.css');
+@import url('../blocks/card/__lessons/card__lessons.css');
+@import url('../blocks/card/__icon/card__icon.css');
