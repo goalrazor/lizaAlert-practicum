@@ -32,7 +32,6 @@ main {
   display: block;
 }
 
-
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -269,8 +268,6 @@ textarea {
  */
 
 [type="checkbox"],
-[type="filters"],
-[type="filters"],
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
