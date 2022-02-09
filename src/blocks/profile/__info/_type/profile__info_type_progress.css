@@ -1,0 +1,3 @@
+.profile__info_type_progress::before {
+	content: url('../../../../images/progress.svg');
+}
