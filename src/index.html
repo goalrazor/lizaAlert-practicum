@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Web+__LizaAlert</title>
 	<link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="page">
+	<header class="header">
+		<p class="header__title">Учебная платформа</p>
+		<ul class="header__navigation">
+			<li class="header__button">
+				<img class="header__icon" src="images/shapo4ka.svg" alt="Шапочка">
+				<p class="header__subtitle">Курсы</p>
+				<a href="#"></a>
+			</li>
+			<li class="header__button header__button_active">
+				<img class="header__icon" src="images/image.svg" alt="Профиль">
+				<p class="header__subtitle">Профиль</p>
+				<a href="#"></a>
+			</li>
+		</ul>
+	</header>
+	<div class="wrapper">
+		<aside class="sidebar">
+			<ul class="filter background">
+				<li class="filter__element filter__title">Фильтры
+				</li>
+				<li class="filter__element">Категория
+					<div class="filter__chevron"></div>
+				</li>
+				<li class="filter__element">Тематика
+					<div class="filter__chevron"></div>
+				</li>
+				<li class="filter__element">Уровень
+					<div class="filter__chevron"></div>
+				</li>
+				<li class="filter__element">Статус
+					<div class="filter__chevron"></div>
+				</li>
+			</ul>
+		</aside>
+		<main class="content">
+			<!-- список курсов -->
 
 <div class="card-profile background">
 	<h2 class="card-profile__header">Личные данные</h2>
@@ -45,6 +80,9 @@
 	</form>
 </div>
 
+
+		</main>
+	</div>
 </body>
 
 </html>

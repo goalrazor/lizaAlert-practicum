@@ -1,0 +1,9 @@
+.header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	width: 1440px;
+	height: 72px;
+	margin: 24px 60px 0;
+	background-color: aquamarine;
+}

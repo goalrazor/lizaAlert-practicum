@@ -1,0 +1,5 @@
+.filter__chevron {
+	width: 11px;
+	height: 7px;
+	background-image: url('../../../images/chevron-down.svg');
+}
