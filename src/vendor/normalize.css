@@ -267,7 +267,8 @@ textarea {
  * 2. Remove the padding in IE 10.
  */
 
-[type="filters"],
+
+[type="checkbox"],
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
