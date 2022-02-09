@@ -1,0 +1,12 @@
+.profile__button-caption {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.profile__button-caption::before {
+	content: url('../../../images/exit.svg');
+	margin-right: 12px;
+	font-size: 0;
+}

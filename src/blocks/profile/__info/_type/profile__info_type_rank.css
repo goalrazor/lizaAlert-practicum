@@ -1,0 +1,3 @@
+.profile__info_type_rank::before {
+	content: url('../../../../images/rank.svg');
+}
