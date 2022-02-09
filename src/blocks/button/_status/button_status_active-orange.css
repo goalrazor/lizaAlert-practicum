@@ -2,3 +2,7 @@
 	color: #ffffff;
 	background-color: #ff6600;
 }
+
+.button_status_active-orange:hover {
+	background-color: #f06000;
+}
