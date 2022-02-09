@@ -5,3 +5,15 @@
 @import url('../blocks/wrapper/wrapper.css');
 @import url('../blocks/sidebar/sidebar.css');
 @import url('../blocks/content/content.css');
+@import url('../blocks/background/background.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_whide/button_whide.css');
+@import url('../blocks/button/_status/button_status_active-orange.css');
+@import url('../blocks/button/_status/button_status_active-white.css');
+@import url('../blocks/button/_status/button_status_not-active.css');
+@import url('../blocks/card-profile/card-profile.css');
+@import url('../blocks/card-profile/__header/card-profile__header.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__item/form__item.css');
+@import url('../blocks/form/__label/form__label.css');
+@import url('../blocks/form/__input-container/form__input-container.css');
