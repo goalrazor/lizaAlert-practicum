@@ -1,5 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/button/button.css');
+@import url('../blocks/button/_whide/button_whide.css');
 @import url('../blocks/background/background.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
