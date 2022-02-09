@@ -1,12 +1,12 @@
 .profile__button {
-	background-color: #FFFFFF;
-	border: 1.2px solid #E6E7EB;
 	margin: 32px 0 0;
-	color: #FF6600;
+	color: #ff6600;
+	background-color: #ffffff;
+	border: 1.2px solid #e6e7eb;
 	content: url('../../../images/exit.svg');
 }
 
 .profile__button:hover {
+	border: 1.2px solid #ff6600;
 	cursor: pointer;
-	border: 1.2px solid #FF6600;
 }
