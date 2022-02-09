@@ -4,5 +4,3 @@ dist
 .vscode
 .idea
 .DS_Store
-src/vendor/normalize.css
-src/vendor/normalize.css
