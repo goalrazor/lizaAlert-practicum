@@ -1,0 +1,3 @@
+.profile__info_type_role::before {
+  content: url(../../../../images/role.svg);
+}

@@ -1,0 +1,6 @@
+.profile__info-list {
+  list-style: none;
+  padding: 0;
+  align-self: baseline;
+  margin: 32px 0 0;
+}
