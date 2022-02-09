@@ -1,6 +1,7 @@
 .button_status_active-orange {
 	color: #ffffff;
 	background-color: #ff6600;
+	transition: 0.3s;
 }
 
 .button_status_active-orange:hover {
