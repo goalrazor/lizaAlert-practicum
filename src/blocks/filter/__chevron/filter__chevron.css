@@ -4,7 +4,7 @@
 	background-image: url('../../../images/chevron-down.svg');
 }
 
-.filter__chevron:focus {
+.filter__chevron:active {
 	background-image: url('../../../images/chevron-up.svg');
 }
 
