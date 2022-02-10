@@ -1,7 +1,7 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/fonts.css');
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/_whide/button_whide.css');
+@import url('../blocks/button/_wide/button_wide.css');
 @import url('../blocks/background/background.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
@@ -24,5 +24,7 @@
 @import url('../blocks/profile/__button/profile__button.css');
 @import url('../blocks/profile/__button-caption/profile__button-caption.css');
 @import url('../blocks/button/_status/button_status_active-orange.css');
-@import url('../blocks/button/_status/button_status_active-white.css');
 @import url('../blocks/button/_status/button_status_not-active.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/floating-block/floating-block.css');
