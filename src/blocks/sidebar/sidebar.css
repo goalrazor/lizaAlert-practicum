@@ -1,5 +1,3 @@
 .sidebar {
-	position: fixed;
-	width: 312px;
-	overflow: auto;
+	margin: 0;
 }
