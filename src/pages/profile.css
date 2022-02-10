@@ -25,3 +25,6 @@
 @import url('../blocks/profile/__button-caption/profile__button-caption.css');
 @import url('../blocks/button/_status/button_status_active-orange.css');
 @import url('../blocks/button/_status/button_status_not-active.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/floating-block/floating-block.css');
