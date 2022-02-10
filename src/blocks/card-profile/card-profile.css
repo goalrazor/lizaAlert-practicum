@@ -1,8 +1,8 @@
 .card-profile {
 	display: flex;
 	flex-direction: column;
-	box-sizing: border-box;
 	align-items: center;
+	box-sizing: border-box;
 	max-width: 648px;
 	padding: 32px;
 }
