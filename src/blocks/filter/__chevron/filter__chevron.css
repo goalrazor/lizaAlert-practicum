@@ -4,6 +4,3 @@
 	background-image: url('../../../images/chevron-down.svg');
 }
 
-.filter__chevron:checked + .filter__subtitle {
-	display: block;
-}
