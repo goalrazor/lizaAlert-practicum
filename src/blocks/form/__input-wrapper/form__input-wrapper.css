@@ -1,0 +1,6 @@
+.form__input-wrapper {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+}

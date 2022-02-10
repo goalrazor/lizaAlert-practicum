@@ -1,0 +1,4 @@
+.form__status_on-error {
+		background: rgba(255, 0, 0, 0.12);
+		outline: 1.2px solid #FF0000;
+}

@@ -10,13 +10,26 @@
 	border-radius: 16px;
 	align-self: stretch;
 	margin: 0 0 32px;
-	font-family: inherit;
+	font-family: 'Golos', 'Arial', sans-serif;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 1.33;
-	position: relative;
 }
 
 .form__item:focus {
-	outline-color: #FF6600;
+	outline: 1.2px solid #FF6600;
+}
+
+.form__item::placeholder {
+	font-weight: normal;
+	font-size: 18px;
+	font-family: 'Golos', 'Arial', sans-serif;
+	line-height: 1.33;
+	color: #9397A3;
+}
+
+.form__item::-webkit-inner-spin-button,
+.form__item::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
 }
