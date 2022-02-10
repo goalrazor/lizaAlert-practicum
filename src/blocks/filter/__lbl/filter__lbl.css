@@ -1,0 +1,4 @@
+.filter__lbl {
+	display: flex;
+	flex-direction: column;
+}
