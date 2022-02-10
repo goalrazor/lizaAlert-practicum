@@ -2,11 +2,12 @@
 	margin: 32px 0 0;
 	color: #ff6600;
 	background-color: #ffffff;
-	border: 1.2px solid #e6e7eb;
 	content: url('../../../images/exit.svg');
+	transition: 0.3s;
 }
 
 .profile__button:hover {
 	border: 1.2px solid #ff6600;
+	box-shadow: none;
 	cursor: pointer;
 }
