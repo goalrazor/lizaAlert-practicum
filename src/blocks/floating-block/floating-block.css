@@ -1,3 +1,4 @@
 .floating-block {
-	position: fixed;
+	position: sticky;
+	top: 96px;
 }
