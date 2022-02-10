@@ -1,0 +1,13 @@
+.filter-chip__icon {
+	display: none;
+	width: 20px;
+	height: 20px;
+	margin-right: 2px;
+	background-image: url('../../../images/cross.svg');
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.filter-chip__icon:hover {
+	opacity: 0.8;
+}
