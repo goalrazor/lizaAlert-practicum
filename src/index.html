@@ -9,24 +9,27 @@
 </head>
 
 <body class="page">
-	<header class="header">
+	<header class="header background">
 		<p class="header__title">Учебная платформа</p>
-		<ul class="header__navigation">
-			<li class="header__button">
-				<img class="header__icon" src="images/shapo4ka.svg" alt="Шапочка"/>
-				<p class="header__subtitle">Курсы</p>
-				<a href="#"></a>
-			</li>
-			<li class="header__button header__button_active">
-				<img class="header__icon" src="images/image.svg" alt="Профиль"/>
-				<p class="header__subtitle">Профиль</p>
-				<a href="#"></a>
-			</li>
-		</ul>
+		<nav>
+			<ul class="header__navigation">
+				<li class="header__button header__button_active">
+					<img class="header__icon" src="images/shapo4ka-active.svg" alt="Шапочка" />
+					<p class="header__subtitle">Курсы</p>
+					<a href="#"></a>
+				</li>
+				<li class="header__button">
+					<img class="header__icon" src="images/image.svg" alt="Профиль" />
+					<p class="header__subtitle">Профиль</p>
+					<a href="#"></a>
+				</li>
+			</ul>
+		</nav>
 	</header>
-	<div class="wrapper"><section class="lead">
-				<h1 class="lead__title">Заголовок</h1>
-			</section>
+	<div class="wrapper">
+		<section class="lead">
+			<h1 class="lead__title">Заголовок</h1>
+		</section>
 		<aside class="sidebar">
 			<ul class="filter background floating-block">
 				<li class="filter__element filter__title">Фильтры</li>
@@ -42,10 +45,63 @@
 					Уровень
 					<div class="filter__chevron"></div>
 				</li>
+				<ul class="filter__checkbox-list">
+					<li>
+						<label class="filter__label">
+							<input type="checkbox" class="filter__checkbox">
+							<span class="filter__pseudo-checkbox"></span>
+							<span class="filter__label-text">Новичек</span>
+						</label>
+					</li>
+					<li>
+						<label class="filter__label">
+							<input type="checkbox" class="filter__checkbox">
+							<span class="filter__pseudo-checkbox"></span>
+							<span class="filter__label-text">Бывалый</span>
+						</label>
+					</li>
+					<li>
+						<label class="filter__label">
+							<input type="checkbox" class="filter__checkbox">
+							<span class="filter__pseudo-checkbox"></span>
+							<span class="filter__label-text">Профессионал</span>
+						</label>
+					</li>
+				</ul>
 				<li class="filter__element">
 					Статус
 					<div class="filter__chevron"></div>
 				</li>
+				<ul class="filter__checkbox-list">
+					<li>
+						<label class="filter__label">
+							<input type="checkbox" class="filter__checkbox">
+							<span class="filter__pseudo-checkbox"></span>
+							<span class="filter__label-text">Не активный</span>
+						</label>
+					</li>
+					<li>
+						<label class="filter__label">
+							<input type="checkbox" class="filter__checkbox">
+							<span class="filter__pseudo-checkbox"></span>
+							<span class="filter__label-text">Вы записаны</span>
+						</label>
+					</li>
+					<li>
+						<label class="filter__label">
+							<input type="checkbox" class="filter__checkbox">
+							<span class="filter__pseudo-checkbox"></span>
+							<span class="filter__label-text">Активный</span>
+						</label>
+					</li>
+					<li>
+						<label class="filter__label">
+							<input type="checkbox" class="filter__checkbox">
+							<span class="filter__pseudo-checkbox"></span>
+							<span class="filter__label-text">Пройден</span>
+						</label>
+					</li>
+				</ul>
 			</ul>
 			<div class="filter-chip">
 				<p class="filter-chip__text">Супер пупер фильтр</p>
@@ -70,12 +126,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button button_status_active-orange">
 								Продолжить
@@ -96,12 +148,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button ">
 								Записаться
@@ -123,12 +171,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button ">
 								Записаться
@@ -148,12 +192,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button ">
 								Записаться
@@ -172,12 +212,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button button_status_not-active">
 								Пройден
@@ -196,12 +232,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button ">
 								Записаться
@@ -222,12 +254,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button ">
 								Записаться
@@ -247,12 +275,8 @@
 						</div>
 						<div class="card__additional">
 							<div>
-								<p class="card__lessons">
-									<img src="./images/lessons_icon.svg" alt="занятия" class="card__icon"/>144 занятия
-								</p>
-								<p class="card__lessons">
-									<img src="./images/time_icon.svg" alt="время" class="card__icon"/>144 ч
-								</p>
+								<p class="card__lessons card__lessons_type_quantity">144 занятия</p>
+								<p class="card__lessons card__lessons_type_hours">144 ч</p>
 							</div>
 							<button class="button button_status_not-active">
 								Пройден
@@ -264,4 +288,5 @@
 		</main>
 	</div>
 </body>
+
 </html>

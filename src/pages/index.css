@@ -33,7 +33,13 @@
 @import url('../blocks/card/__info/card__info.css');
 @import url('../blocks/card/__additional/card__additional.css');
 @import url('../blocks/card/__lessons/card__lessons.css');
-@import url('../blocks/card/__icon/card__icon.css');
+@import url('../blocks/card/__lessons/_type/card__lessons_type_hours.css');
+@import url('../blocks/card/__lessons/_type/card__lessons_type_quantity.css');
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/floating-block/floating-block.css');
+@import url('../blocks/filter/__checkbox-list/filter__checkbox-list.css');
+@import url('../blocks/filter/__checkbox/filter__checkbox.css');
+@import url('../blocks/filter/__label/filter__label.css');
+@import url('../blocks/filter/__label-text/filter__label-text.css');
+@import url('../blocks/filter/__pseudo-checkbox/filter__pseudo-checkbox.css');
