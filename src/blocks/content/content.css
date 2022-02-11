@@ -1,3 +1,4 @@
 .content {
-	margin: 0;
+	display: grid;
+	row-gap: 24px;
 }
