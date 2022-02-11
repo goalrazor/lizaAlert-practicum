@@ -1,0 +1,12 @@
+.card__lessons_type_quantity {
+	margin-bottom: 16px;
+}
+
+.card__lessons_type_quantity::before {
+	content: '';
+	position: relative;
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	background-image: url('../../../../images/lessons_icon.svg');
+}

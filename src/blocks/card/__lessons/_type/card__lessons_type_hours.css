@@ -1,0 +1,8 @@
+.card__lessons_type_hours::before {
+	content: '';
+	position: relative;
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	background-image: url('../../../../images/time_icon.svg');
+}
