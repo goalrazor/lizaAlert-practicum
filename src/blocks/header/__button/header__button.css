@@ -4,3 +4,7 @@
 	align-items: center;
 	margin-left: 42px;
 }
+
+.header__button:hover {
+	cursor: pointer;
+}
