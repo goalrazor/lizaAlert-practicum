@@ -12,11 +12,11 @@
 	font-family: 'Golos', 'Arial', sans-serif;
 	line-height: 1.33;
 	background: #ffffff;
+	background-image: url('../../../images/pen.svg');
+	background-repeat: no-repeat;
+	background-position: 97%;
 	border: 1.2px solid #e6e7eb;
 	border-radius: 16px;
-	background-image: url('../../../images/pen.svg');
-  	background-position: 97%;
-  	background-repeat: no-repeat;
 }
 
 .form__item:focus {
