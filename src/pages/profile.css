@@ -32,12 +32,9 @@
 @import url('../blocks/card-profile/__header/card-profile__header.css');
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__item/form__item.css');
+@import url('../blocks/form/__item/_el/form__item_el_photo.css');
 @import url('../blocks/form/__label/form__label.css');
 @import url('../blocks/form/__input-container/form__input-container.css');
-@import url('../blocks/form/__input-wrapper/form__input-wrapper.css');
-@import url('../blocks/form/__icon/form__icon.css');
-@import url('../blocks/form/__icon/_type/form__icon_type_clip.css');
-@import url('../blocks/form/__icon/_type/form__icon_type_pen.css');
 @import url('../blocks/form/_status/form__status_on-error.css');
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
