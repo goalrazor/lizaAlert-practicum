@@ -1,5 +1,6 @@
 .header {
 	position: fixed;
+	z-index: 1;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -7,5 +8,4 @@
 	max-width: 1440px;
 	height: 72px;
 	margin: 0;
-	box-shadow: 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);
 }

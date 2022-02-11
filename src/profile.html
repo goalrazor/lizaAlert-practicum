@@ -9,38 +9,40 @@
 </head>
 
 <body class="page">
-	<header class="header">
+	<header class="header background">
 		<p class="header__title">Учебная платформа</p>
-		<ul class="header__navigation">
-			<li class="header__button">
-				<img class="header__icon" src="images/shapo4ka.svg" alt="Шапочка">
-				<p class="header__subtitle">Курсы</p>
-				<a href="#"></a>
-			</li>
-			<li class="header__button header__button_active">
-				<img class="header__icon" src="images/profile%20active.svg" alt="Профиль">
-				<p class="header__subtitle">Профиль</p>
-				<a href="#"></a>
-			</li>
-		</ul>
+		<nav>
+			<ul class="header__navigation">
+				<li class="header__button">
+					<img class="header__icon" src="images/shapo4ka.svg" alt="Шапочка">
+					<p class="header__subtitle">Курсы</p>
+					<a href="#"></a>
+				</li>
+				<li class="header__button header__button_active">
+					<img class="header__icon" src="images/profile-active.svg" alt="Профиль">
+					<p class="header__subtitle">Профиль</p>
+					<a href="#"></a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 	<div class="wrapper">
 		<section class="lead">
 			<h1 class="lead__title">Заголовок</h1>
 		</section>
 		<aside class="sidebar">
-			<article class="profile background floating-block">
+			<div class="profile background floating-block">
 				<img class="profile__photo" src="./images/userpic.png" alt="Аватар пользователя" />
-				<p class="profile__name">Иванова Анна Сидоровна</p>
+				<h2 class="profile__name">Иванова Анна Сидоровна</h2>
 				<ul class="profile__info-list">
 					<li class="profile__info profile__info_type_rank">Профессионал</li>
 					<li class="profile__info profile__info_type_role">Картограф</li>
 					<li class="profile__info profile__info_type_progress">Пройдено 2 курса</li>
 				</ul>
 				<button type="button" class="button button_wide profile__button" aria-label="Выйти из профиля">
-					<p class="profile__button-caption">Выйти из аккаунта</p>
+					<span class="profile__button-caption">Выйти из аккаунта</span>
 				</button>
-			</article>
+			</div>
 		</aside>
 		<main class="content">
 			<div class="card-profile background">

@@ -3,5 +3,8 @@
 	grid-template-columns: 200px 1fr 288px;
 	width: 100%;
 	height: 240px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
 	column-gap: 24px;
 }
