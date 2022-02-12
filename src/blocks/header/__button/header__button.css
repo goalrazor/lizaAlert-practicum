@@ -5,6 +5,6 @@
 	margin-left: 42px;
 }
 
-.header__button_active:hover {
+.header__button:hover {
 	cursor: pointer;
 }
