@@ -14,7 +14,6 @@
 @import url('../blocks/content/content.css');
 @import url('../blocks/background/background.css');
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/_whide/button_whide.css');
 @import url('../blocks/profile/profile.css');
 @import url('../blocks/profile/__photo/profile__photo.css');
 @import url('../blocks/profile/__name/profile__name.css');

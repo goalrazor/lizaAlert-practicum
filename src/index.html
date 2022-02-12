@@ -26,12 +26,12 @@
 	</header>
 	<div class="wrapper">
 		<section class="lead">
-			<h1 class="lead__title">Заголовок</h1>
+			<h1 class="lead__title">Курсы</h1>
 		</section>
 		<aside class="sidebar">
 			<ul class="filter background">
 				<li class="filter__element filter__title">Фильтры
-					<button class="filter__reset" type="reset">Очистить</button>
+					<button class="filter__reset-button filter__reset-button_active" type="reset" aria-label="Сбросить фильтры">Очистить</button>
 				</li>
 				<li class="filter__element">
 					Категория
@@ -48,21 +48,21 @@
 						<ul class="filter__checkbox-list">
 							<li>
 								<label class="filter__label">
-									<input type="checkbox" class="filter__checkbox">
+									<input type="checkbox" name="checkbox-level-novice" class="filter__checkbox">
 									<span class="filter__pseudo-checkbox"></span>
 									<span class="filter__label-text">Новичек</span>
 								</label>
 							</li>
 							<li>
 								<label class="filter__label">
-									<input type="checkbox" class="filter__checkbox">
+									<input type="checkbox" name="checkbox-level-skilled" class="filter__checkbox">
 									<span class="filter__pseudo-checkbox"></span>
 									<span class="filter__label-text">Бывалый</span>
 								</label>
 							</li>
 							<li>
 								<label class="filter__label">
-									<input type="checkbox" class="filter__checkbox">
+									<input type="checkbox" name="checkbox-level-pro" class="filter__checkbox">
 									<span class="filter__pseudo-checkbox"></span>
 									<span class="filter__label-text">Профессионал</span>
 								</label>
@@ -77,28 +77,28 @@
 						<ul class="filter__checkbox-list">
 							<li>
 								<label class="filter__label">
-									<input type="checkbox" class="filter__checkbox">
+									<input type="checkbox" name="checkbox-status-inactive" class="filter__checkbox">
 									<span class="filter__pseudo-checkbox"></span>
 									<span class="filter__label-text">Не активный</span>
 								</label>
 							</li>
 							<li>
 								<label class="filter__label">
-									<input type="checkbox" class="filter__checkbox">
+									<input type="checkbox" name="checkbox-status-signed" class="filter__checkbox">
 									<span class="filter__pseudo-checkbox"></span>
 									<span class="filter__label-text">Вы записаны</span>
 								</label>
 							</li>
 							<li>
 								<label class="filter__label">
-									<input type="checkbox" class="filter__checkbox">
+									<input type="checkbox" name="checkbox-status-active" class="filter__checkbox">
 									<span class="filter__pseudo-checkbox"></span>
 									<span class="filter__label-text">Активный</span>
 								</label>
 							</li>
 							<li>
 								<label class="filter__label">
-									<input type="checkbox" class="filter__checkbox">
+									<input type="checkbox" name="checkbox-status-completed" class="filter__checkbox">
 									<span class="filter__pseudo-checkbox"></span>
 									<span class="filter__label-text">Пройден</span>
 								</label>
@@ -107,10 +107,36 @@
 					</div>
 				</li>
 			</ul>
-			<div class="filter-chip">
-				<p class="filter-chip__text">Супер пупер фильтр</p>
-				<div class="filter-chip__icon"></div>
-			</div>
+			<ul class="tags-list">
+				<li class="filter-chip">
+					<p class="filter-chip__text">Новичок</p>
+					<div class="filter-chip__icon"></div>
+				</li>
+				<li class="filter-chip">
+					<p class="filter-chip__text">Бывалый</p>
+					<div class="filter-chip__icon"></div>
+				</li>
+				<li class="filter-chip">
+					<p class="filter-chip__text">Профессионал</p>
+					<div class="filter-chip__icon"></div>
+				</li>
+				<li class="filter-chip">
+					<p class="filter-chip__text">Не активный</p>
+					<div class="filter-chip__icon"></div>
+				</li>
+				<li class="filter-chip">
+					<p class="filter-chip__text">Вы записаны</p>
+					<div class="filter-chip__icon"></div>
+				</li>
+				<li class="filter-chip">
+					<p class="filter-chip__text">Активный</p>
+					<div class="filter-chip__icon"></div>
+				</li>
+				<li class="filter-chip">
+					<p class="filter-chip__text">Пройден</p>
+					<div class="filter-chip__icon"></div>
+				</li>
+			</ul>
 		</aside>
 		<main class="content">
 			<section class="cards" aria-label="cards">
