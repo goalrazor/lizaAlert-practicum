@@ -1,12 +1,15 @@
-.filter__reset {
+.filter__reset-button {
 	font-weight: 500;
 	font-size: 18px;
 	font-style: normal;
 	line-height: 1.3;
 	background-color: #ffffff;
 	border: none;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.3s, opacity 0.3s linear;
 }
 
-.filter__reset:hover {
+.filter__reset-button:hover {
 	cursor: pointer;
 }
