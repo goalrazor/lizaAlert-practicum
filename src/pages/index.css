@@ -23,6 +23,7 @@
 @import url('../blocks/filter-chip/filter-chip.css');
 @import url('../blocks/filter-chip/__text/filter-chip__text.css');
 @import url('../blocks/filter-chip/__icon/filter-chip__icon.css');
+@import url('../blocks/tags-list/tags-list.css');
 @import url('../blocks/background/background.css');
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/cards/__content/cards__content.css');
