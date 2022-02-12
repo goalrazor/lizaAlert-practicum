@@ -24,6 +24,14 @@
 @import url('../blocks/filter/__reset-button/_active/filter__reset-button_active.css');
 @import url('../blocks/filter/__lbl/filter__lbl.css');
 @import url('../blocks/filter-chip/filter-chip.css');
+@import url('../blocks/filter-chip/_level/filter-clip_level_beginner.css');
+@import url('../blocks/filter-chip/_level/filter-clip_level_experienced.css');
+@import url('../blocks/filter-chip/_level/filter-clip_level_professional.css');
+@import url('../blocks/filter-chip/_level/filter-clip_level_inactive.css');
+@import url('../blocks/filter-chip/_level/filter-clip_level_recorded.css');
+@import url('../blocks/filter-chip/_level/filter-clip_level_active.css');
+@import url('../blocks/filter-chip/_level/filter-clip_level_passed.css');
+@import url('../blocks/filter-chip/_activ/filter-chip_activ.css');
 @import url('../blocks/filter-chip/__text/filter-chip__text.css');
 @import url('../blocks/filter-chip/__icon/filter-chip__icon.css');
 @import url('../blocks/tags-list/tags-list.css');
