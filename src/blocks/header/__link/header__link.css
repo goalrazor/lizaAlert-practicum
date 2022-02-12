@@ -11,4 +11,5 @@
 
 .header__link_active {
 	color: #f06000;
+	cursor: default;
 }
