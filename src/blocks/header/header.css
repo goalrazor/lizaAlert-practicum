@@ -7,6 +7,7 @@
 	width: 100%;
 	max-width: 1440px;
 	margin: 0;
+	font-family: 'Golos-Text', 'Arial', sans-serif;
 	background: #ffffff;
 	box-shadow: 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);
 }

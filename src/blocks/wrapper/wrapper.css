@@ -5,5 +5,6 @@
 	box-sizing: border-box;
 	max-width: 1440px;
 	padding: 72px 60px 40px;
+	font-family: 'Golos-Text', 'Arial', sans-serif;
 	background-color: #fcfcfc;
 }
