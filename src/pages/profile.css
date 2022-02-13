@@ -32,6 +32,7 @@
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__item/form__item.css');
 @import url('../blocks/form/__item/_el/form__item_el_photo.css');
+@import url('../blocks/form/__item/_el/form__item_el_phone.css');
 @import url('../blocks/form/__label/form__label.css');
 @import url('../blocks/form/__input-container/form__input-container.css');
 @import url('../blocks/form/_status/form__status_on-error.css');
