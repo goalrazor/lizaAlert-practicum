@@ -17,6 +17,7 @@
 	background-position: 97%;
 	border: 1.2px solid #e6e7eb;
 	border-radius: 16px;
+	cursor: pointer;
 }
 
 .form__item:focus {
