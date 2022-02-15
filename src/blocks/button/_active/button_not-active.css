@@ -1,9 +1,9 @@
-.button_status_not-active {
+.button_not-active {
 	color: #9397a3;
 	background-color: #e6e7eb;
 	cursor: auto;
 }
 
-.button_status_not-active:hover {
+.button_not-active:hover {
 	box-shadow: none;
 }
