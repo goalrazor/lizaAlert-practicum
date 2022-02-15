@@ -36,76 +36,94 @@
 					<button class="filter__reset-button filter__reset-button_active" type="reset" aria-label="Сбросить фильтры">Очистить</button>
 				</li>
 				<li class="filter__element">
-					Категория
-					<div class="filter__chevron"></div>
-				</li>
-				<li class="filter__element">
-					Тематика
-					<div class="filter__chevron"></div>
-				</li>
-				<li class="filter__element">
-					Уровень
-					<div class="filter__chevron filter__chevron_opened"></div>
-					<div class="filter__lbl">
-						<ul class="filter__checkbox-list">
-							<li>
-								<label class="filter__label">
-									<input type="checkbox" name="checkbox-level-novice" class="filter__checkbox" checked>
-									<span class="filter__pseudo-checkbox"></span>
-									<span class="filter__label-text">Новичок</span>
-								</label>
-							</li>
-							<li>
-								<label class="filter__label">
-									<input type="checkbox" name="checkbox-level-skilled" class="filter__checkbox" checked>
-									<span class="filter__pseudo-checkbox"></span>
-									<span class="filter__label-text">Бывалый</span>
-								</label>
-							</li>
-							<li>
-								<label class="filter__label">
-									<input type="checkbox" name="checkbox-level-pro" class="filter__checkbox">
-									<span class="filter__pseudo-checkbox"></span>
-									<span class="filter__label-text">Профессионал</span>
-								</label>
-							</li>
-						</ul>
+					<div class="accordion">
+						<button class="accordion__button">
+							Категория
+							<span class="accordion__chevron"></span>
+						</button>
+						<div class="accordion__drop-panel"></div>
 					</div>
 				</li>
 				<li class="filter__element">
-					Статус
-					<div class="filter__chevron filter__chevron_opened"></div>
-					<div class="filter__lbl">
-						<ul class="filter__checkbox-list">
-							<li>
-								<label class="filter__label">
-									<input type="checkbox" name="checkbox-status-inactive" class="filter__checkbox">
-									<span class="filter__pseudo-checkbox"></span>
-									<span class="filter__label-text">Не активный</span>
-								</label>
-							</li>
-							<li>
-								<label class="filter__label">
-									<input type="checkbox" name="checkbox-status-signed" class="filter__checkbox">
-									<span class="filter__pseudo-checkbox"></span>
-									<span class="filter__label-text">Вы записаны</span>
-								</label>
-							</li>
-							<li>
-								<label class="filter__label">
-									<input type="checkbox" name="checkbox-status-active" class="filter__checkbox">
-									<span class="filter__pseudo-checkbox"></span>
-									<span class="filter__label-text">Активный</span>
-								</label>
-							</li>
-							<li>
-								<label class="filter__label">
-									<input type="checkbox" name="checkbox-status-completed" class="filter__checkbox">
-									<span class="filter__pseudo-checkbox"></span>
-									<span class="filter__label-text">Пройден</span>
-								</label>
-							</li>
-						</ul>
+					<div class="accordion">
+						<button class="accordion__button">
+							Тематика
+							<span class="accordion__chevron"></span>
+						</button>
+						<div class="accordion__drop-panel"></div>
+					</div>
+				</li>
+				<li class="filter__element">
+					<div class="accordion">
+						<button class="accordion__button">
+							Уровень
+							<span class="accordion__chevron"></span>
+						</button>
+						<div class="accordion__drop-panel">
+							<ul class="filter__checkbox-list">
+								<li>
+									<label class="filter__label">
+										<input type="checkbox" name="checkbox-level-novice" class="filter__checkbox" checked>
+										<span class="filter__pseudo-checkbox"></span>
+										<span class="filter__label-text">Новичок</span>
+									</label>
+								</li>
+								<li>
+									<label class="filter__label">
+										<input type="checkbox" name="checkbox-level-skilled" class="filter__checkbox" checked>
+										<span class="filter__pseudo-checkbox"></span>
+										<span class="filter__label-text">Бывалый</span>
+									</label>
+								</li>
+								<li>
+									<label class="filter__label">
+										<input type="checkbox" name="checkbox-level-pro" class="filter__checkbox">
+										<span class="filter__pseudo-checkbox"></span>
+										<span class="filter__label-text">Профессионал</span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="filter__element">
+					<div class="accordion">
+						<button class="accordion__button">
+							Статус
+							<span class="accordion__chevron"></span>
+						</button>
+						<div class="accordion__drop-panel">
+							<ul class="filter__checkbox-list">
+								<li>
+									<label class="filter__label">
+										<input type="checkbox" name="checkbox-status-inactive" class="filter__checkbox">
+										<span class="filter__pseudo-checkbox"></span>
+										<span class="filter__label-text">Не активный</span>
+									</label>
+								</li>
+								<li>
+									<label class="filter__label">
+										<input type="checkbox" name="checkbox-status-signed" class="filter__checkbox">
+										<span class="filter__pseudo-checkbox"></span>
+										<span class="filter__label-text">Вы записаны</span>
+									</label>
+								</li>
+								<li>
+									<label class="filter__label">
+										<input type="checkbox" name="checkbox-status-active" class="filter__checkbox">
+										<span class="filter__pseudo-checkbox"></span>
+										<span class="filter__label-text">Активный</span>
+									</label>
+								</li>
+								<li>
+									<label class="filter__label">
+										<input type="checkbox" name="checkbox-status-completed" class="filter__checkbox">
+										<span class="filter__pseudo-checkbox"></span>
+										<span class="filter__label-text">Пройден</span>
+									</label>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</li>
 			</ul>
@@ -339,6 +357,8 @@
 			<a href="#" aria-label="#" class="card__link"></a>
 		</li>
 	</template>
+
+	<script src="script.js" defer></script>
 </body>
 
 </html>
