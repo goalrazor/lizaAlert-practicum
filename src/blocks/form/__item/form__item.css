@@ -9,7 +9,7 @@
 	padding: 12px 16px;
 	font-weight: normal;
 	font-size: 18px;
-	font-family: 'Golos', 'Arial', sans-serif;
+	font-family: 'Golos-Text', 'Arial', sans-serif;
 	line-height: 1.33;
 	background: #ffffff;
 	background-image: url('../../../images/pen.svg');
@@ -28,7 +28,7 @@
 	color: #9397a3;
 	font-weight: normal;
 	font-size: 18px;
-	font-family: 'Golos', 'Arial', sans-serif;
+	font-family: 'Golos-Text', 'Arial', sans-serif;
 	line-height: 1.33;
 }
 
