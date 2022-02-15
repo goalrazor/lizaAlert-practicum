@@ -48,7 +48,7 @@
 			<section class="form-wrapper">
 					<div class="card-profile background">
 						<h2 class="card-profile__header">Личные данные</h2>
-						<form class="form form__personal-data" name="form">
+						<form class="form form_type_personal-data" name="form_type_personal-data">
 							<fieldset class="form__input-container">
 								<label for="name" class="form__label">ФИО</label>
 								<input type="text" class="form__item form__item_el_name" id="name" name="name" placeholder="ФИО" required>
@@ -61,7 +61,7 @@
 								<input type="text" class="form__item form__item_el_nickname" id="nickname" name="nickname" placeholder="Позывной на форуме" required>
 								<label for="photo" class="form__label">Фото</label>
 								<input type="text" class="form__item form__item_el_photo" id="photo" name="photo" placeholder="photo.jpg" disabled>
-								<button class="button button_wide button_status_active-orange" type="submit">Сохранить
+								<button class="button button_size_wide button_active" type="submit">Сохранить
 									изменения</button>
 							</fieldset>
 						</form>
@@ -93,15 +93,15 @@
 			<section class="form-wrapper">
 					<div class="card-profile background">
 						<h2 class="card-profile__header">Аккаунт</h2>
-						<form class="form form__account">
+						<form class="form form_type_account" name="form_type_account">
 							<fieldset class="form__input-container">
 								<label for="phone" class="form__label">Номер телефона</label>
-								<input type="phone" class="form__item form__item_el_phone" id="phone" name="phone" placeholder="+7 123 456 78 90" disabled>
+								<input type="tel" class="form__item form__item_el_phone" id="phone" name="phone" placeholder="+7 123 456 78 90" disabled>
 								<label for="email" class="form__label">E-mail</label>
 								<input type="email" class="form__item form__item_el_email" id="email" name="email" placeholder="hello@example.com">
 								<label for="password" class="form__label">Пароль</label>
 								<input type="password" class="form__item form__item_el_password" id="password" name="password" placeholder="Пароль" required>
-								<button class="button button_wide button_status_not-active" type="submit">Сохранить
+								<button class="button button_size_wide button_not-active" type="submit">Сохранить
 									изменения</button>
 							</fieldset>
 						</form>

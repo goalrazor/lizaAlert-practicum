@@ -1,5 +1,5 @@
 .filter-chip {
-	display: none;
+	display: flex;
 	align-items: center;
 	width: fit-content;
 	height: 24px;
