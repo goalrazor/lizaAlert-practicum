@@ -5,6 +5,7 @@ const elChipTemplate = content.querySelector('#chip-template').content;
 const chipsList = document.querySelector('.tags-list');
 const checkboxLists = document.querySelectorAll('.filter__checkbox-list');
 let checkedBoxes = {};
+
 // ------------------------------ functions ---------------------------- //
 function toggleAccordion(el) {
     const elChevron = el.querySelector('.accordion__chevron');
@@ -56,6 +57,7 @@ function handleInputCheckbox(e) {
         }
     }
 }
+
 // ------------------------------ listeners ---------------------------- //
 accordionButtons.forEach((accordionButton) => {
     accordionButton.addEventListener('click', function () {
