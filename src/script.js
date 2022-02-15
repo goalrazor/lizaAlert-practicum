@@ -34,7 +34,7 @@ function addChip(input) {
     const elChip = elChipTemplate.querySelector('.filter-chip').cloneNode(true);
     elChip.classList.add('filter-chip_ctrl_' + checkboxModifier.substring(9)); // отпиливаем от имени чекбокса 'checkbox-'
     elChip.querySelector('.filter-chip__text').textContent = checkboxLabel;
-    checkedBoxes[checkboxLabel] = {input, chip: elChip};
+    checkedBoxes[checkboxLabel] = { input, chip: elChip };
 
     function handleClickChips(e) {
         e.preventDefault();
@@ -67,7 +67,7 @@ function handleInputCheckbox(e) {
 
 // ------------------------------ listeners ---------------------------- //
 accordionButtons.forEach((accordionButton) => {
-    accordionButton.addEventListener('click', function() {
+    accordionButton.addEventListener('click', function () {
         toggleAccordion(this);
     });
 });
