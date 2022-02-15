@@ -22,31 +22,30 @@ accordionButtons.forEach((accordionButton) => {
     });
 });
 // ------------------------------ execution ---------------------------- //
-const  birthDate = document.querySelector('#birthday');
+const birthDate = document.querySelector('#birthday');
 console.log(birthDate);
 const dateMask = IMask(birthDate, {
-	mask: Date,  // enable date mask
+    mask: Date,
 
-	// other options are optional
-	pattern: 'd-`m-`Y',  // Pattern mask with defined blocks, default is 'd{.}`m{.}`Y'
-	// you can provide your own blocks definitions, default blocks for date mask are:
-	blocks: {
-	  d: {
-		mask: IMask.MaskedRange,
-		from: 1,
-		to: 31,
-		maxLength: 2,
-	  },
-	  m: {
-		mask: IMask.MaskedRange,
-		from: 1,
-		to: 12,
-		maxLength: 2,
-	  },
-	  Y: {
-		mask: IMask.MaskedRange,
-		from: 1920,
-		to: 2010,
-	  }
-	},
-  });
+    pattern: 'DD.MM.YYYY',
+
+    blocks: {
+        YYYY: {
+            mask: IMask.MaskedRange,
+            from: 1970,
+            to: 2030,
+        },
+        MM: {
+            mask: IMask.MaskedRange,
+            from: 1,
+            to: 12,
+        },
+        DD: {
+            mask: IMask.MaskedRange,
+            from: 1,
+            to: 31,
+        },
+    },
+    autofix: true,
+    overwrite: true,
+});
