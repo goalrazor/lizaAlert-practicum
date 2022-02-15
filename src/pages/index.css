@@ -30,7 +30,6 @@
 @import url('../blocks/filter-chip/_ctrl/filter-chip_ctrl_status-signed.css');
 @import url('../blocks/filter-chip/_ctrl/filter-chip_ctrl_status-active.css');
 @import url('../blocks/filter-chip/_ctrl/filter-chip_ctrl_status-completed.css');
-@import url('../blocks/filter-chip/_active/filter-chip_active.css');
 @import url('../blocks/filter-chip/__text/filter-chip__text.css');
 @import url('../blocks/filter-chip/__icon/filter-chip__icon.css');
 @import url('../blocks/tags-list/tags-list.css');
