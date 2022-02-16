@@ -6,7 +6,6 @@ const chipsList = document.querySelector('.tags-list');
 const checkboxLists = document.querySelectorAll('.filter__checkbox-list');
 const resetCheckboxButton = document.querySelector('.filter__reset-button');
 let checkedBoxes = {};
-const birthDate = document.querySelector('#birthday');
 
 // ------------------------------ functions ---------------------------- //
 function toggleAccordion(el) {
@@ -73,38 +72,6 @@ function resetFilters() {
     });
     resetCheckboxButton.classList.remove('filter__reset-button_active');
 }
-
-const dateMask = IMask(birthDate, {
-    mask: Date,
-
-    pattern: 'DD.MM.YYYY',
-
-    blocks: {
-        YYYY: {
-            mask: IMask.MaskedRange,
-            from: 1920,
-            to: 2010,
-            placeholderChar: 'г'
-        },
-        MM: {
-            mask: IMask.MaskedRange,
-            from: 1,
-            to: 12,
-            placeholderChar: 'м'
-        },
-        DD: {
-            mask: IMask.MaskedRange,
-            from: 1,
-            to: 31,
-            placeholderChar: 'д'
-        },
-    },
-
-    autofix: true,
-    overwrite: true,
-    lazy: false,
-
-});
 
 // ------------------------------ listeners ---------------------------- //
 accordionButtons.forEach((accordionButton) => {
