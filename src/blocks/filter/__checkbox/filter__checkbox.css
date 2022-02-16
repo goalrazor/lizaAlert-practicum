@@ -1,15 +1,11 @@
 .filter__checkbox {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	clip: rect(0 0 0 0);
-}
-
-.filter__checkbox:checked + .filter__pseudo-checkbox {
-	background-image: url('../../../images/checked.svg');
+	display: none;
 }
 
 .filter__checkbox:checked ~ .filter__label-text {
 	color: #f06000;
+}
+
+.filter__checkbox:checked ~ .filter__label-text::after{
+	background-image: url('../../../images/checked.svg');
 }
