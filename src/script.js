@@ -5,7 +5,7 @@ const elChipTemplate = content.querySelector('#chip-template').content;
 const chipsList = document.querySelector('.tags-list');
 const checkboxLists = document.querySelectorAll('.filter__checkbox-list');
 const resetCheckboxButton = document.querySelector('.filter__reset-button');
-const btnSignUp = document.querySelectorAll('.button');
+const singUpButtons = document.querySelectorAll('.button');
 let checkedBoxes = {};
 
 // ------------------------------ functions ---------------------------- //
@@ -88,8 +88,8 @@ checkboxLists.forEach((checkboxList) => {
 
 resetCheckboxButton.addEventListener('click', resetFilters);
 
-btnSignUp.forEach(function(el) {
-    el.addEventListener('click', function(event) {
+singUpButtons.forEach(function(button) {
+    button.addEventListener('click', function(event) {
         event.target.classList.add('button_active');
         event.target.textContent = 'Продолжить';
     });
