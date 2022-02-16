@@ -41,6 +41,7 @@ function addChip(input) {
         e.preventDefault();
         checkedBoxes[checkboxLabel].input.checked = false;
         delete checkedBoxes[checkboxLabel];
+        handleResetButton();
         elChip.remove();
     }
 
@@ -60,10 +61,18 @@ function handleInputCheckbox(e) {
     if (inputCheckbox.classList.contains('filter__checkbox')) {
         if (inputCheckbox.checked) {
             chipsList.append(addChip(inputCheckbox));
-            resetCheckboxButton.classList.add('filter__reset-button_active');
         } else {
             removeChip(inputCheckbox);
         }
+    }
+    handleResetButton();
+}
+
+function handleResetButton() {
+    if (Object.entries(checkedBoxes).length === 0) {
+        resetCheckboxButton.classList.remove('filter__reset-button_active');
+    } else {
+        resetCheckboxButton.classList.add('filter__reset-button_active');
     }
 }
 
