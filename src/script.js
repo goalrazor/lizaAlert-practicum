@@ -5,6 +5,7 @@ const elChipTemplate = content.querySelector('#chip-template').content;
 const chipsList = document.querySelector('.tags-list');
 const checkboxLists = document.querySelectorAll('.filter__checkbox-list');
 const resetCheckboxButton = document.querySelector('.filter__reset-button');
+const checkboxes = document.querySelectorAll('.filter__checkbox');
 let checkedBoxes = {};
 
 // ------------------------------ functions ---------------------------- //
@@ -59,9 +60,20 @@ function handleInputCheckbox(e) {
     if (inputCheckbox.classList.contains('filter__checkbox')) {
         if (inputCheckbox.checked) {
             chipsList.append(addChip(inputCheckbox));
-            resetCheckboxButton.classList.add('filter__reset-button_active');
         } else {
             removeChip(inputCheckbox);
+        }
+    }
+    handleResetButton();
+}
+
+function handleResetButton() {
+    for (let i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].checked) {
+            resetCheckboxButton.classList.add('filter__reset-button_active');
+            break;
+        } else {
+            resetCheckboxButton.classList.remove('filter__reset-button_active');
         }
     }
 }
