@@ -90,8 +90,11 @@ resetCheckboxButton.addEventListener('click', resetFilters);
 
 singUpButtons.forEach(function(button) {
     button.addEventListener('click', function(event) {
-        event.target.classList.add('button_active');
-        event.target.textContent = 'Продолжить';
+        const subscribeButton = event.target;
+        if (subscribeButton.textContent.includes('Записаться')) {
+            subscribeButton.classList.add('button_active');
+            subscribeButton.textContent = 'Продолжить';
+        }
     });
 });
 // ------------------------------ execution ---------------------------- //
