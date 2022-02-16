@@ -5,6 +5,7 @@ const elChipTemplate = content.querySelector('#chip-template').content;
 const chipsList = document.querySelector('.tags-list');
 const checkboxLists = document.querySelectorAll('.filter__checkbox-list');
 const resetCheckboxButton = document.querySelector('.filter__reset-button');
+const courseCardsButtons = document.querySelectorAll('.card .button');
 let checkedBoxes = {};
 
 // ------------------------------ functions ---------------------------- //
@@ -86,4 +87,16 @@ checkboxLists.forEach((checkboxList) => {
 });
 
 resetCheckboxButton.addEventListener('click', resetFilters);
+
+courseCardsButtons.forEach(function(button) {
+    button.addEventListener('click', function(event) {
+        const subscribeButton = event.target;
+        const buttonClassList = subscribeButton.classList;
+        if (!buttonClassList.contains('button_active') &&
+                !buttonClassList.contains('button_not-active')) {
+            subscribeButton.classList.add('button_active');
+            subscribeButton.textContent = 'Продолжить';
+        }
+    });
+});
 // ------------------------------ execution ---------------------------- //
