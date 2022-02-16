@@ -5,7 +5,6 @@ const elChipTemplate = content.querySelector('#chip-template').content;
 const chipsList = document.querySelector('.tags-list');
 const checkboxLists = document.querySelectorAll('.filter__checkbox-list');
 const resetCheckboxButton = document.querySelector('.filter__reset-button');
-const checkboxes = document.querySelectorAll('.filter__checkbox');
 let checkedBoxes = {};
 
 // ------------------------------ functions ---------------------------- //
@@ -41,6 +40,7 @@ function addChip(input) {
         e.preventDefault();
         checkedBoxes[checkboxLabel].input.checked = false;
         delete checkedBoxes[checkboxLabel];
+        handleResetButton();
         elChip.remove();
     }
 
