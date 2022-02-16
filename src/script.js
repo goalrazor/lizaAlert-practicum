@@ -5,6 +5,7 @@ const elChipTemplate = content.querySelector('#chip-template').content;
 const chipsList = document.querySelector('.tags-list');
 const checkboxLists = document.querySelectorAll('.filter__checkbox-list');
 let checkedBoxes = {};
+const btnSignUp = document.querySelectorAll('.button');
 
 // ------------------------------ functions ---------------------------- //
 function toggleAccordion(el) {
@@ -67,4 +68,12 @@ accordionButtons.forEach((accordionButton) => {
 checkboxLists.forEach((checkboxList) => {
     checkboxList.addEventListener('input', handleInputCheckbox);
 });
+
+btnSignUp.forEach(function(el) {
+    el.addEventListener('click', function(event) {
+        event.target.classList.add('button_active');
+        event.target.textContent = 'Продолжить';
+    })
+});
 // ------------------------------ execution ---------------------------- //
+
