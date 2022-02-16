@@ -1,5 +1,8 @@
-
+// ------------------------------ var\const ---------------------------- //
 const birthDate = document.querySelector('#birthday');
+
+// ------------------------------ functions ---------------------------- //
+
 const dateMask = IMask(birthDate, {
     mask: Date,
 
@@ -31,3 +34,7 @@ const dateMask = IMask(birthDate, {
     lazy: false,
 
 });
+
+// ------------------------------ listeners ---------------------------- //
+
+// ------------------------------ execution ---------------------------- //
