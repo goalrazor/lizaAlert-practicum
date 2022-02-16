@@ -68,13 +68,10 @@ function handleInputCheckbox(e) {
 }
 
 function handleResetButton() {
-    for (let i = 0; i < checkboxes.length; i++) {
-        if (checkboxes[i].checked) {
-            resetCheckboxButton.classList.add('filter__reset-button_active');
-            break;
-        } else {
-            resetCheckboxButton.classList.remove('filter__reset-button_active');
-        }
+    if (Object.entries(checkedBoxes).length === 0) {
+        resetCheckboxButton.classList.remove('filter__reset-button_active');
+    } else {
+        resetCheckboxButton.classList.add('filter__reset-button_active');
     }
 }
 
