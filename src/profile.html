@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web+__LizaAlert</title>
+	<link rel="stylesheet" href="./pages/profile.css">
+</head>
+
+<body class="page">
+	<header class="header">
+		<p class="header__title">Учебная платформа</p>
+		<nav>
+			<ul class="header__navigation">
+				<li class="header__button">
+					<a class="header__link header__link_active" href="index.html">
+						<img class="header__icon" src="images/courses-icon.svg" alt="Курсы">Курсы
+					</a>
+				</li>
+				<li class="header__button">
+					<p class="header__link">
+						<img class="header__icon" src="images/profile-icon-active.svg" alt="Профиль">Профиль
+					</p>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="wrapper">
+		<section class="lead">
+			<h1 class="lead__title">Профиль</h1>
+		</section>
+		<aside class="sidebar">
+			<div class="profile background floating-block">
+				<img class="profile__photo" src="./images/userpic.png" alt="Аватар пользователя" />
+				<h2 class="profile__name">Иванова Анна Сидоровна</h2>
+				<ul class="profile__info-list">
+					<li class="profile__info profile__info_type_rank">Профессионал</li>
+					<li class="profile__info profile__info_type_role">Картограф</li>
+					<li class="profile__info profile__info_type_progress">Пройдено 2 курса</li>
+				</ul>
+				<button type="button" class="button profile__button" aria-label="Выйти из профиля">
+					<span class="profile__button-caption">Выйти из аккаунта</span>
+				</button>
+			</div>
+		</aside>
+		<main class="content">
+			<section class="form-wrapper">
+					<div class="card-profile background">
+						<h2 class="card-profile__header">Личные данные</h2>
+						<form class="form form_type_personal-data" name="form_type_personal-data">
+							<fieldset class="form__input-container">
+								<label for="name" class="form__label">ФИО</label>
+								<input type="text" class="form__item form__item_el_name" id="name" name="name" placeholder="ФИО" required>
+								<label for="birthday" class="form__label">Дата рождения</label>
+								<input type="text" class="form__item form__item_el_birthday" id="birthday" name="birthday">
+								<label for="region" class="form__label">Географический регион</label>
+								<input type="text" class="form__item form__item_el_region" id="region" name="region" placeholder="Географический регион" required>
+								<label for="nickname" class="form__label">Позывной на форуме</label>
+								<input type="text" class="form__item form__item_el_nickname" id="nickname" name="nickname" placeholder="Позывной на форуме" required>
+								<label for="photo" class="form__label">Фото</label>
+								<input type="text" class="form__item form__item_el_photo" id="photo" name="photo" placeholder="photo.jpg" disabled>
+								<button class="button button_size_wide button_active" type="submit">Сохранить
+									изменения</button>
+							</fieldset>
+						</form>
+					</div>
+				<aside class="about">
+					<p class="about__paragraph">
+						Просьба указывать настоящие ФИО, это нужно для получения сертификатов
+					</p>
+					<p class="about__paragraph">
+						Географический регион влияет на доступность некоторых курсов и занятий
+					</p>
+					<p class="about__paragraph">
+						Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите позывной
+						на форуме — он будет отображаться вместо ваших настоящих данных
+					</p>
+					<p class="about__paragraph">
+						Требования к загружаемому фото:
+					</p>
+					<ul class="about__list">
+						<li>
+							разрешение не менее 640x640px
+						</li>
+						<li>
+							размер не более 3 МБ
+						</li>
+					</ul>
+				</aside>
+			</section>
+			<section class="form-wrapper">
+					<div class="card-profile background">
+						<h2 class="card-profile__header">Аккаунт</h2>
+						<form class="form form_type_account" name="form_type_account">
+							<fieldset class="form__input-container">
+								<label for="phone" class="form__label">Номер телефона</label>
+								<input type="tel" class="form__item form__item_el_phone" id="phone" name="phone" placeholder="+7 123 456 78 90" disabled>
+								<label for="email" class="form__label">E-mail</label>
+								<input type="email" class="form__item form__item_el_email" id="email" name="email" placeholder="hello@example.com">
+								<label for="password" class="form__label">Пароль</label>
+								<input type="password" class="form__item form__item_el_password" id="password" name="password" placeholder="Пароль" required>
+								<button class="button button_size_wide button_not-active" type="submit">Сохранить
+									изменения</button>
+							</fieldset>
+						</form>
+					</div>
+				<aside class="about">
+					<p class="about__paragraph">
+						Номер телефона используется как уникальный идентификатор пользователя, поэтому его нельзя поменять вручную
+					</p>
+					<p class="about__paragraph">
+						Если по какой-то причине у вас нет доступа к номеру телефона на который
+						вы регистрировали аккаунт, напишите в поддержку
+					</p>
+					<p class="about__paragraph">
+						Email нужен для восстановления пароля
+					</p>
+				</aside>
+			</section>
+		</main>
+	</div>
+	<script src="scripts/profile.js" defer></script>
+	<script src="https://unpkg.com/imask"></script>
+</body>
+
+</html>

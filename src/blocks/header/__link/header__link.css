@@ -1,0 +1,13 @@
+.header__link {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	color: #f06000;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.3;
+	letter-spacing: 0;
+	text-align: right;
+	text-decoration: none;
+	cursor: default;
+}

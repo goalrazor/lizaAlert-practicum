@@ -1,0 +1,9 @@
+.button_active {
+	color: #ffffff;
+	background-color: #ff6600;
+	transition: 0.3s;
+}
+
+.button_active:hover {
+	background-color: #f06000;
+}

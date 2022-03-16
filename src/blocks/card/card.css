@@ -1,0 +1,12 @@
+.card {
+	position: relative;
+	display: grid;
+	grid-template-columns: 200px 1fr 288px;
+	grid-template-areas: 'card__image card__information card__additional';
+	width: 100%;
+	height: 240px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	column-gap: 24px;
+}

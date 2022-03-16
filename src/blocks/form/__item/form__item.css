@@ -1,0 +1,39 @@
+.form__item {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	align-self: stretch;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 0 29px;
+	padding: 12px 16px;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: 'Golos-Text', 'Arial', sans-serif;
+	line-height: 1.33;
+	background: #ffffff;
+	background-image: url('../../../images/pen.svg');
+	background-repeat: no-repeat;
+	background-position: 97%;
+	border: 1.2px solid #e6e7eb;
+	border-radius: 16px;
+	cursor: pointer;
+}
+
+.form__item:focus {
+	outline: 1.2px solid #ff6600;
+}
+
+.form__item::placeholder {
+	color: #9397a3;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: 'Golos-Text', 'Arial', sans-serif;
+	line-height: 1.33;
+}
+
+.form__item::-webkit-inner-spin-button,
+.form__item::-webkit-calendar-picker-indicator {
+	display: none;
+	-webkit-appearance: none;
+}

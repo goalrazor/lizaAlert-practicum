@@ -1,0 +1,6 @@
+.accordion__chevron {
+	width: 11px;
+	height: 7px;
+	background-image: url('../../../images/chevron-down.svg');
+	transition: background-image 0.2s ease-in-out;
+}

@@ -1,0 +1,7 @@
+.card__additional {
+	display: flex;
+	grid-area: card__additional;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 32px;
+}

@@ -1,0 +1,7 @@
+.card__link {
+	z-index: 1;
+	grid-area: card__link;
+	grid-row: 1 / -1;
+	grid-column: 1 / -1;
+	cursor: pointer;
+}

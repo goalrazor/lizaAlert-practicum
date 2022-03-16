@@ -1,0 +1,10 @@
+.filter__label {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	transition: opacity 0.2s linear;
+}
+
+.filter__label:hover {
+	opacity: 0.5;
+}
